@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calcular Temperatura. Celsius e Fahrenheit">
+    <meta name="keywords" content="temperatura, celsius, fahrenheit, kelvin" />
+    <meta name="author" content="aldo" />
+    <title>Temperatura Celsius-Fahrenheit-Kelvin</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="">Temperatura</a>
+            <a href="https://imc-pt.vercel.app/" target="_blank">IMC</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="container">
+            <h1>Temperatura</h1>
+            <p>
+                <input type="radio" name="temperatura" value="celsius" data-js="celsius" />Celsius
+                <input type="radio" name="temperatura" value="fahrenheit" data-js="fahrenheit" />Fahrenheit
+                <input type="radio" name="temperatura" value="kelvin" data-js="kelvin" />Kelvin
+            </p>
+            <input type="number" data-js="temp" placeholder="Temperatura" />
+            <button data-js="btn">Converter</button>
+            <span data-js="msg"></span>
+        </div>
+    </main>
+
+    <section>
+        <h1>Temperatura</h1>
+        <p>
+            Temperatura é uma grandeza física que mede a energia cinética média de cada grau de liberdade de cada
+            uma
+            das partículas de um sistema em equilíbrio térmico. Em sistemas constituídos apenas por partículas
+            idênticas
+            essa definição associa-se diretamente à medida da energia cinética média por partícula do sistema em
+            equilíbrio térmico. Esta definição é análoga a afirmar-se que a temperatura mensura a energia cinética
+            média
+            por grau de liberdade de cada partícula do sistema uma vez consideradas todas as partículas de um
+            sistema em
+            equilíbrio térmico em um certo instante. A rigor, a temperatura é definida apenas para sistemas em
+            equilíbrio térmico. O Sistema Internacional de Unidades estabelece uma escala específica para a
+            temperatura
+            absoluta. Utiliza-se a escala kelvin para a mensura, com o ponto triplo da água a 273,16 K como o ponto
+            fundamental de fixação. Outras escalas forem sendo utilizadas historicamente. A escala de Rankine, que
+            utiliza o grau Fahrenheit como unidade de intervalo, está ainda em uso como parte do sistemas de
+            unidades
+            inglesas de engenharia em alguns campos de estudo nos Estados Unidos. A Escala Internacional de
+            Temperaturas
+            de 1990 (ITS-90) fornece meios práticos de se estimar a temperatura termodinâmica com um elevado grau de
+            precisão. Dentro do formalismo da termodinâmica, que leva em conta apenas grandezas macroscopicamente
+            mensuráveis, a temperatura é, de forma equivalente, definida como a derivada parcial da energia interna
+            U em
+            relação à entropia.
+        </p>
+        <h3>Ciência</h3>
+        <p>
+            A termodinâmica e em consequência as grandezas a ela diretamente associadas desempenham no contexto
+            científico um papel
+            certamente o mais relevante visto que, ao contrário de outras teorias, que encontram aplicações bem
+            relevantes apenas em
+            certas áreas e enfoques de estudo, as leis da termodinâmicas são leis universais e são obedecidas por todos
+            os sistemas
+            naturais, quer o enfoque de estudo esteja no campo específico desta área ou não. Neste contexto a
+            temperatura reflete a
+            veracidade de tal afirmação e tem papel o mais importante em quase todos os campos da ciência, incluindo
+            física,
+            geologia, química, ciências atmosféricas e biologia. Não há como se imaginar a biologia ou a química
+            desvinculadas do
+            conceito de temperatura, tão pouco a física ou qualquer outra área que tenha por foco o estudo de sistemas
+            (naturais).
+            Praticamente todas as propriedades físicas dos materiais, incluindo-se os estados físicos da matéria
+            (sólido, líquido,
+            gasoso e plasma), a densidade, a solubilidade, a pressão de vapor e condutividade elétrica, dependem
+            explicitamente da
+            temperatura. A temperatura também tem um papel importante na determinação das velocidades e afeta o
+            equilíbrio das reações químicas. Esta é uma entre as razões do corpo humano ter vários mecanismos de
+            manutenção da temperatura corporal em 36,7 °C;
+            temperaturas ligeiramente mais altas podem causar reações prejudiciais com sérias consequências, ou mesmo
+            reduzir a
+            velocidade das reações mediante a desnaturação de suas enzimas (catalisadores), a exemplo. Temperaturas mais
+            baixas
+            reduzem as velocidades das reações a patamares muitas vezes mortais. A temperatura também controla o a
+            distribuição em
+            frequência e a intensidade da radiação térmica emitida pela superfície de um corpo negro. Uma aplicação
+            deste efeito é a
+            lâmpada incandescente, na qual um filamento de tungstênio é aquecido eletricamente para uma temperatura na
+            qual
+            quantidades significativas de luz visível são emitidas, além de determinar a sua cor. A maior temperatura já
+            obtida artificialmente foi de 4 trilhões de graus Celsius, por meio de um acelerador de
+            partículas, quando cientistas do Laboratório Nacional de Brookhaven obtiveram em 15 de fevereiro de 2010,
+            esta
+            temperatura recorde por alguns milésimos de segundos. Essa temperatura é suficiente para desintegrar a
+            matéria, podendo
+            "derreter" prótons e nêutrons A menor temperatura obtida foi de 700 nK (1 nK = 10 - 9 K) pelos
+            cientistas do
+            National Institute of Standards and Technology (NIST), por meio de laser para resfriar adiabaticamente
+            átomos de césio.
+        </p>
+        <h3>Metrologia</h3>
+        <p>
+            A medição da temperatura usando os modernos termômetros científicos e escalas de temperatura tem suas
+            origens no século XVIII, quando Gabriel Fahrenheit adaptou um termômetro de mercúrio a uma escala de
+            temperatura desenvolvida pelo dinamarquês Ole Rømer. A escala Fahrenheit é ainda usada em alguns países,
+            incluindo os Estados Unidos, para propósitos não-científicos.
+        </p>
+        <small>
+            Fonte: <a
+                href="https://pt.wikipedia.org/wiki/Temperatura#:~:text=Tanto%20o%20kelvin%20quanto%20o,%2D273%2C15%20%C2%B0C."
+                target="_blank">Wikipédia</a>
+        </small>
+    </section>
+    <section>
+        <h1>Grau Celsius</h1>
+        <p>
+            A escala Celsius (unidade °C), também conhecida como a escala centígrada, é uma escala termométrica do
+            sistema métrico usada na maioria dos países do mundo. Teve origem a partir do modelo proposto pelo
+            astrônomo
+            sueco Anders Celsius (1701-1744).
+            Esta escala é baseada nos pontos de fusão e de ebulição da água, em condição atmosférica padrão, aos
+            quais
+            são atribuídos os valores de 0 °C e 100 °C, respectivamente. Devido a esta divisão centesimal, se deu a
+            antiga nomenclatura grau centígrado (cem partes/graus) que, em 1948, durante a 9.ª Conferência Geral de
+            Pesos e Medidas (CR64), teve seu nome oficialmente modificado para grau Celsius, em reconhecimento ao
+            trabalho de Anders Celsius e para fim de desambiguação com o prefixo centi do Sistema Internacional de
+            Unidades. Enquanto que os valores de congelamento e evaporação da água estão aproximadamente corretos, a
+            definição original não é
+            apropriada como um padrão formal pois ela depende da definição de pressão atmosférica padrão, que por
+            sua
+            vez depende da própria definição de temperatura. A definição oficial atual de grau Celsius define 0,01
+            °C
+            como o ponto triplo da água, e 1 grau Celsius como sendo 1/273,16 da diferença de temperatura entre o
+            ponto
+            triplo da água e o zero absoluto. Esta definição garante que 1 grau Celsius apresente a mesma variação
+            de
+            temperatura que 1 kelvin.
+        </p>
+        <h3>História</h3>
+        <p>
+            Em 1742, o astrônomo sueco Anders Celsius (1701-1744), publicou nos Anais da Academia Real das Ciências da
+            Suécia, seu trabalho intitulado "Observações sobre dois graus persistentes de um termômetro". Neste
+            trabalho, Celsius considerou que uma substância pura muda de estado físico à temperatura constante e baseado
+            nisso, propôs uma nova escala termométrica, a escala de graus centígrados, na qual definiu a temperatura 0
+            como sendo a temperatura medida no
+            termômetro equivalente à temperatura em que a água entra em ebulição e 100 sendo a temperatura equivalente
+            ao ponto em que o gelo derrete. Desta forma, diferentemente da convenção moderna, um menor valor
+            representaria uma temperatura mais alta e um maior valor, uma temperatura mais baixa neste modelo. Embora
+            existiram alguns trabalhos paralelos nos anos seguintes, apresentando o valor 0 para o ponto de derretimento
+            do gelo e 100 para o ponto de ebulição da água, como o "Termômetro de Lyon", os créditos pela inversão da
+            escala de graus centígrados foram dados ao botânico sueco Carolus Linnaeus (1707-1778) e ao fabricante sueco
+            de instrumentos científicosDaniel Ekström (1711-1755), que juntos produziram o "Termômetro de Linnaeus".
+            Anteriormente ao modelo
+            proposto por Celsius, já existiam outras escalas baseadas nos estados físicos da água, como a escala
+            Réaumur. Mas devido à sua simplicidade, a escala centígrada tornou-se mundialmente conhecida,
+            inclusive servindo de base para a criação de outros modelos, como é o caso da escala Kelvin. Em 1948,
+            durante a 9.ª Conferência Geral de Pesos e Medidas (CR 64), a escala centígrada teve seu nome oficialmente
+            modificado para escala Celsius, como meio de resolver as confusões geradas com o prefixo centi do SI e como
+            forma de
+            homenagear o astrônomo sueco.
+        </p>
+        <h3>Onde se Usa</h3>
+        <p>
+            A escala Celsius é usada em quase todo o mundo. Nos Estados Unidos, Fahrenheit é a escala preferida para
+            medidas de temperatura no dia a dia. Deve ser notado, no entanto, que mesmo estes países usam Celsius ou
+            Kelvin em aplicações científicas. Em telejornais e termômetros de grandes avenidas do Brasil sempre se
+            referem à temperatura na escala
+            Celsius, expressando-a apenas com o símbolo do grau (°). Tal notação provoca algumas confusões para
+            visitantes norte-americanos e é considerada errada pelo SI (Sistema Internacional de Unidades), uma vez que
+            o símbolo do grau após a grandeza numérica desacompanhado da letra C representa o símbolo de ângulo. Os
+            termômetros científicos têm em seu interior mercúrio, sendo que os caseiros geralmente contêm álcool (de cor
+            azulada ou avermelhada). Os mais modernos e também precisos são feitos pela união de dois metais diferentes,
+            originando um termopar. A maioria dos termômetros e termostatos modernos utilizam um termopar.
+        </p>
+        <h3>Representação</h3>
+        <p>
+            A Resolução Conmetro n.º 12, de 12 de outubro de 1988, adota o Quadro Geral de Unidades de Medida e
+            encarrega o INMETRO
+            de propor as modificações que se tornarem necessárias a esse Quadro, de modo a resolver casos omissos,
+            mantê-lo atualizado e dirimir dúvidas que possam surgir na interpretação e na aplicação das unidades legais.
+            O subitem 3.5 do Anexo A dessa Resolução Conmetro trata de espaçamento entre número e símbolo, e estabelece
+            que o espaçamento entre número e o símbolo da unidade correspondente deve atender à conveniência de cada
+            caso, por exemplo: Em frases de textos correntes, é dado normalmente o espaço correspondente a uma ou meia
+            letra, mas não se deve dar espaçamento quando há possibilidade de fraude; Em colunas de tabelas, é facultado
+            utilizar espaçamentos diversos entre números e os símbolos das unidades correspondentes. A Resolução
+            Conmetro n.º 12/1988 tem como base os parâmetros preconizados pelo Bureau Internacional de Pesos e Medidas
+            (BIPM), que edita regularmente publicação sobre as unidades do Sistema Internacional de Unidades - SI. O
+            subitem 5.3.3 da 8.ª edição (2006) da publicação do BIPM estabelece condições para a escrita do valor de uma
+            grandeza nos seguintes termos: O símbolo da unidade deve ser colocado sempre após o valor numérico da
+            expressão para uma grandeza, deixando
+            um espaço entre o valor numérico e o símbolo da unidade. As únicas exceções à regra são os símbolos da
+            unidade para o grau, minuto e segundo do ângulo plano, ° ; ´ ; e " , respectivamente, para os quais não há
+            espaço entre o valor numérico e o símbolo da unidade.
+            Deve ser notado que, de acordo com esta regra, o símbolo "°C" para o grau Celsius deve ser precedido por um
+            espaço quando expressar uma temperatura na escala Celsius.
+        </p>
+        <small>
+            Fonte: <a href="https://pt.wikipedia.org/wiki/Grau_Celsius" target="_blank">Wikipédia</a>
+        </small>
+    </section>
+    <section>
+        <h1>Grau Fahrenheit</h1>
+        <p>
+            Fahrenheit é uma escala de temperatura proposta por Daniel Gabriel Fahrenheit em 1724. Sua unidade é o
+            grau
+            Fahrenheit (símbolo: °F). Nesta escala, o ponto de fusão da água é de 32 °F e o ponto de ebulição é de
+            212
+            °F. Uma diferença de 1,8 °F é igual a uma diferença de 1 °C. Esta escala foi utilizada principalmente
+            pelos
+            países que foram colonizados pelos britânicos, mas seu uso
+            atualmente se restringe a poucos países de língua inglesa, como os Estados Unidos e Belize. E também,
+            muito
+            utilizada com o povo
+            grego, para medir a temperatura de um corpo. Para uso científico, há uma escala de temperatura, chamada
+            de
+            Rankine, que leva o marco zero de sua escala ao zero absoluto e possui a mesma variação da escala
+            fahrenheit, existindo, portanto, correlação entre a escala de
+            Rankine e grau fahrenheit do mesmo modo que existe correlação das escalas kelvin e grau Celsius.
+        </p>
+        <h3>História</h3>
+        <p>
+            Em 1708 Daniel Gabriel Fahrenheit visitou Ole Rømer em Copenhaga. Com ele, aprendeu muito sobre a construção
+            de termómetros de mercúrio, aperfeiçoando o processo de purificação do elemento posteriormente. Rømer era
+            astrónomo e, portanto, estava habituado a utilizar o sistema de numeração sexagesimal. Esta provavelmente é
+            a razão de ter atribuído nas suas pesquisas o valor 0 ° ao ponto de fusão da água e o valor 60 ° ao ponto de
+            ebulição desta.
+            Percebera, entretanto, que a temperatura mais baixa medida com seu termómetro em Copenhaga era inferior ao
+            valor considerado 0 ° (ponto de fusão da água). Ao comparar a diferença entre o ponto de fusão da água e
+            este "novo" valor encontrado, com o ponto de fusão da água e o de ebulição da mesma, constatou que a
+            primeira diferença correspondia a 1/8 do tamanho da distância entre a fusão e a ebulição da água. Como a
+            escala era dividida em 60 unidades, este 1/8 correspondia a 7,5, ou seja, a menor temperatura encontrada em
+            Copenhaga era -7,5 ° numa escala que o ponto de fusão da água era 0 ° e o ponto de ebulição era 60 °. Para
+            evitar valores negativos nas suas medições meteorológicas, resolveu alterar a nomenclatura para 0 ° na
+            temperatura mais baixa em Copenhaga, alterando consequentemente a temperatura de congelamento da água para
+            7,5 °. Fahrenheit seguiu pelo mesmo caminho e também usou estes dois números como referências para a sua
+            escala. Rømer estava
+            preocupado com medições meteorológicas, portanto, como Copenhaga praticamente nunca passava do valor de 26 °
+            na sua escala, resolveu construir termómetros que 3/4 do tamanho ficavam acima do ponto de fusão da água, ou
+            seja, iam até 22,5 ° (7,5 x 3). Mais tarde, alterou o ponto de fusão da água para 8 ° em vez de 7,5 °, o que
+            fez com que os seus termómetros fossem até 24 ° (8 x 3) em vez de 22,5 °. Logo depois, Fahrenheit passou
+            também a adotar o valor 8 ° para o ponto de fusão da água, evitando muitas contas com valores decimais.
+            Fahrenheit entretanto foi além. Por volta de 1717 desenvolveu um método de filtragem de mercúrio em membrana
+            de couro
+            que possibilitou criar termómetros mais precisos e, com isso, conseguiu dividir cada intervalo dos seus
+            termómetros em
+            quatro partes. Como não pretendia utilizar valores decimais, isto acarretou a multiplicação por 4 (quatro)
+            de todos os valores que encontrara, assim, o ponto de fusão da água tornou-se 32 ° (8 x 4).
+        </p>
+        <h3>Utilização</h3>
+        <p>
+            Em 1724, época em que muitos cientistas criavam seus próprios termómetros e seus valores, as vantagens da
+            utilização do grau fahrenheit eram muito mais perceptíveis tanto para uso da ciência local quanto para o uso
+            no dia a dia.
+            Atualmente, as vantagens desta medição tanto para a ciência quanto para o dia a dia parecem pouco úteis
+            devido ao avanço
+            da ciência.
+            Entre as possíveis vantagens da utilização dos graus fahrenheit, podem ser citados: Em países de clima frio
+            as temperaturas assumem, quase sempre, valores positivos na escala fahrenheit, o que não é
+            acompanhado pela graduação em Celsius. O zero fahrenheit é -17,78 °C, portanto, poucas serão as situações em
+            que serão
+            apresentados valores negativos na previsão do tempo, o que facilita a compreensão de temperatura pelos
+            habitantes de
+            países de clima frio, principalmente para cálculos de amplitude térmica pelos menos intelectualizados
+            (Exemplo: uma
+            cidade com temperatura abaixo do ponto de fusão da água somente durante a noite). O fato de existirem uma
+            maior quantidade de números em um mesmo intervalo quando comparados fahrenheit e Celsius (1,8 para 1) faz
+            com que todos os arredondamentos para valores inteiros se mostrem muito mais próximos do valor real.
+            Entretanto, críticos sugerem que, mesmo a diferença de 1 grau na escala Celsius (para a temperatura da
+            cidade) é uma variação muito pequena para ser atribuída uma vantagem a esta característica. Antigamente, na
+            época da criação do sistema, esta era uma vantagem válida para medições meteorológicas que deviam ser as
+            mais acuradas possível, principalmente para estudos físicos e registros históricos. Em Celsius, a definição
+            da passagem de estado febril para febre que precisa da utilização de medicamentos está entre os
+            valores 37 °C e 38 °C. Em fahrenheit, acostumou-se a tratar pacientes com medicamentos quando a febre destes
+            chega a valores de 3 dígitos (100 °F = 37,78 °C). É usual encontrar, nos países que usam a medida,
+            enfermeiras falando: "A temperatura já atingiu três dígitos, vamos dar uma medicação". Numa época
+            pré-industrial e antes do aperfeiçoamento do setor de saúde, esta foi uma valiosa informação para
+            enfermeiros e médicos, fato que parece perder a importância com o passar do tempo.
+        </p>
+        <h3>Conversão</h3>
+        <p>
+            Para a maior parte do mundo, acostumados com temperaturas escritas em graus Celsius, torna-se difícil
+            entender temperaturas em graus fahrenheit, comumente utilizada nos Estados Unidos. Pela fórmula de conversão
+            é necessária a divisão por 1,8 após a diminuição de 32, nem sempre fácil de se fazer mentalmente. Para
+            facilitar a rápida conversão mental, podem-se usar dois métodos, o primeiro mais preciso e menos rápido, o
+            segundo menos preciso e muito rápido: Primeiro método, mais preciso: Temperatura em graus Celsius = [
+            (Temperatura em Fahrenheit - 32) / 2 ] + 10% ou seja: partindo da temperatura em Fahrenheit, subtraia 32,
+            divida o resultado por 2 e some 10% (um décimo) a este resultado. O valor encontrado não é exatamente o
+            número verdadeiro, mas é bastante próximo. Exemplo: Suponhamos que lemos em um jornal que a temperatura é 86
+            °F. E então quanto é em graus Celsius?
+            1º 86 - 32 = 54;
+            2º 54 / 2 = 27;
+            3º 27 + 2,7 (um décimo) = 29,7 °C, que é bem próximo do valor real: 30 °C. Segundo método, mais rápido:
+            Temperatura em graus Celsius = (Temperatura em Fahrenheit - 30) / 2. O valor encontrado é menos próximo do
+            verdadeiro do que pelo método anterior, mas o cálculo é mais rápido e fácil de
+            fazer de cabeça, o que é necessário, por exemplo, ao se ouvir um noticiário que informa o histórico ou a
+            previsão das
+            temperaturas. Exemplo: Partindo da mesma temperatura de 86 °F, usado no exemplo do método simplificado
+            anterior, qual é a temperatura aproximada em graus Celsius? Resposta : (86 - 30) / 2 = 28 graus Celsius.
+            Observe que houve um erro de 2 °C no valor encontrado, o que não é pouco, mas obtivemos uma boa noção da
+            temperatura, em
+            vez de ficarmos (as pessoas não acostumadas com a escala Fahrenheit) sem a menor noção dela. Terceiro
+            método, mais difícil, mas exato: (Temperatura em Fahrenheit - 32) / 9 = Temperatura em Celsius / 5. Note que
+            esta fórmula vale tanto para a conversão de Fahrenheit para Celsius quanto de Celsius para Fahrenheit.
+        </p>
+        <small>
+            Fonte: <a href="https://pt.wikipedia.org/wiki/Grau_Fahrenheit" target="_blank">Wikipédia</a>
+        </small>
+    </section>
+    <section>
+        <h1>Kelvin</h1>
+        <p>
+            O kelvin (símbolo: K) é a unidade de base do Sistema Internacional de Unidades (SI) para a grandeza
+            temperatura termodinâmica. O kelvin é a fração 1/273,16 da temperatura termodinâmica do ponto triplo da
+            água, ou seja, é definido de tal modo que o ponto triplo da água é exatamente 273,16 K.[1] É uma das
+            sete
+            unidades de base do SI, muito utilizada na física e química. É utilizado para medir a temperatura
+            absoluta
+            de um objeto, com zero absoluto sendo 0 K. A escala kelvin recebeu este nome em homenagem ao físico e
+            engenheiro irlandês William Thomson (1824–1907), 1º barão Kelvin, que escreveu sobre a necessidade de
+            uma
+            "escala termométrica absoluta". Diferentemente do grau Fahrenheit e do grau Celsius, o kelvin não é
+            referido
+            nem escrito como um grau. O kelvin é a unidade primária de medida de temperatura nas ciências físicas,
+            mas é
+            frequentemente usado em conjunção com o grau Celsius, que tem a mesma magnitude.
+        </p>
+        <h3>História</h3>
+        <p>
+            A escala kelvin foi proposta em 1848 por William Thomson (Lorde Kelvin), que escreveu em seu artigo, On an
+            Absolute Thermometric Scale, a necessidade de uma escala em que "frio infinito" (zero absoluto) fosse o
+            ponto nulo da escala. Thomson calculou que o zero absoluto é equivalente a -273 °C.[2] Esta escala absoluta
+            é conhecida hoje como a escala de temperatura termodinâmica kelvin. Em 1954, a Resolução 3 da décima
+            Conferência Geral de Pesos e Medidas (CGPM) deu à Escala kelvin sua definição moderna, designando o ponto
+            triplo da água como seu segundo ponto de definição e atribuiu a sua temperatura exatamente 273,16 kelvin. Em
+            1967/1968 Resolução 3 da 13 ª CGPM renomeou o incremento da unidade de temperatura termodinâmica "kelvin",
+            símbolo K, substituindo "grau kelvin" , símbolo ° K.[4] Além disso, considerou-se útil definir
+            explicitamente a magnitude do incremento de unidade, a 13 ª CGPM também realizada na Resolução 4, que "o
+            kelvin, unidade de temperatura termodinâmica, é igual à fração 1/273,16 da temperatura termodinâmica do
+            ponto triplo da água". Em 2005, o Comité Internacional de Pesos e Medidas (CIPM), uma comissão do CGPM,
+            afirmou que com o objectivo de delinear a temperatura do ponto triplo da água, a definição da escala de
+            temperatura termodinâmica kelvin remete à água com uma
+            composição isotópica especificada como Vienna Standard Mean Ocean Water.
+        </p>
+        <h3>Definição</h3>
+        <p>
+            O zero absoluto, na escala kelvin, é a temperatura de menor energia de um sistema, no entanto nenhum sistema
+            pode ser arrefecido até tal temperatura. Uma das temperaturas mais baixas já atingidas em laboratório foi de
+            4 K. Nessa temperatura, o hélio torna‑se líquido. O símbolo para o kelvin é sempre um K maiúsculo e nunca é
+            escrito em itálico. Há um espaço entre a grandeza numérica e o símbolo da unidade (por exemplo, "99,987 K").
+            A palavra "kelvin" (nome da unidade) é escrita com inicial minúscula (exceto no princípio das frases),
+            igualmente de acordo com a normas do SI; escreve-se em português com k inicial, de acordo com a norma
+            ortográfica que o permite para estrangeirismos aportuguesados — as formas plenamente aportuguesadas
+            "quélvim" e "quélvine" não são usadas, ainda que reflita a pronúncia habitual em português. Enquanto unidade
+            do SI, o kelvin não deve ser precedido pelas palavras 'grau' ou 'graus' ou pelo símbolo °, como em grau
+            Celsius e grau Fahrenheit. Isto acontece porque estas são escalas de medição, enquanto o kelvin é uma
+            unidade de medição. A omissão de "grau" também indica que não é relativo a um ponto de referência arbitrária
+            como as escalas Celsius e Fahrenheit, mas sim uma unidade absoluta de medida que pode ser manipulada
+            algebricamente (por exemplo, multiplicado por dois para indicar o dobro da quantidade de "energia média",
+            disponível entre graus de liberdade
+            elementares do sistema).
+        </p>
+        <h3>Recordes</h3>
+        <p>
+            Até 2005 a temperatura mais baixa obtida para um condensado Bose-Einstein era de 450 pK, ou 0,00000000045 K,
+            obtida por Wolfgang Ketterle e colegas do Instituto de Tecnologia de Massachusetts.[8] A mais baixa
+            temperatura já obtida foi de
+            100 pK, durante uma experiência de ordenação magnética nuclear em 1999 no Laboratório de Baixas Temperaturas
+            da Universidade de Tecnologia de Helsinque. Recentemente foram feitos experimentos em 2012 onde foi possível
+            ultrapassar o zero absoluto, uma coisa que até então se acreditava ser impossível. Para chegar a esse
+            resultado, cientistas da Universidade Ludwig Maximilian, na Alemanha, criaram um gás quântico com átomos de
+            potássio alinhados de maneira específica com a ajuda de lasers e campos magnéticos. Assim, quando os campos
+            magnéticos foram rapidamente ajustados, os átomos passaram de um estado de baixa energia para um estado com
+            o mais alto nível de energia possível. Essa transição, aliada ao fato de que os átomos continuaram em ordem
+            graças ao feixe laser, fez com que a temperatura do gás ultrapassasse alguns bilionésimos de graus abaixo da
+            temperatura de zero absoluto (-273,15° C). O físico teórico Achim Rosch, da Universidade de Colônia, na
+            Alemanha, calcula que, em um sistema como esse, os átomos abaixo do zero absoluto passam a flutuar em vez de
+            serem puxados pela gravidade. Outra peculiaridade desse gás é que ele passa a se comportar de maneira
+            semelhante à da energia escura, força que ainda é considerada como um dos mistérios ainda não resolvidos da
+            física e que tem papel fundamental na expansão do universo, já que desafia a gravidade que tenta fazer o
+            universo voltar para o seu centro.
+        </p>
+        <h3>Uso</h3>
+        <p>
+            Por razões históricas, é comum expressar a temperatura termodinâmica T como a diferença entre essa
+            temperatura e o ponto de congelamento da água T0. Essa diferença é igual à temperatura Celsius t, que é
+            definida por: t = T - T0. Uma vez que a magnitude do kelvin é igual à magnitude do grau Celsius, um
+            intervalo de temperatura pode ser expresso em kelvins ou em graus Celsius. Na eletrônica, o kelvin é usado
+            para expressar a temperatura de ruído. O chamado ruído Johnson-Nyquist de resistências discretas e
+            capacitores é um tipo de ruído térmico derivado a partir da constante de Boltzmann e pode ser utilizado para
+            determinar a temperatura de ruído de um circuito usando a fórmula de Friis para ruído. O kelvin é também
+            utilizado como unidade de medida da temperatura de cor, que expressa a aparência de cor da luz emitida pela
+            fonte de luz, que está baseada na relação entre a temperatura de um material hipotético e padronizado,
+            conhecido como "corpo negro radiador", e a distribuição de energia da luz emitida à medida que a temperatura
+            do corpo negro é elevada a partir do zero absoluto.
+        </p>
+        <h3>Zero Absoluto</h3>
+        <p>
+            Devido à definição formal de temperatura em termodinâmica, temperaturas abaixo do zero absoluto são
+            possíveis, mas
+            correspondem a temperaturas mais quentes do que temperaturas positivas.
+        </p>
+        <small>
+            Fonte: <a href="https://pt.wikipedia.org/wiki/Kelvin" target="_blank">Wikipédia</a>
+        </small>
+    </section>
+
+    <footer>
+        <small>@aldo.falcao - julho de 2022</small>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
