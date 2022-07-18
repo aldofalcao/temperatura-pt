@@ -52,7 +52,6 @@ const msgKelvin = () => mensagem.innerHTML = `
 
 const conversao = () => {
     const radio = document.querySelector('input[name="temperatura"]:checked')
-
     if (temperatura.value === '') {
         mensagem.innerHTML = 'Informe a temperatura'
     } else if (radio === null) {
@@ -66,9 +65,8 @@ const conversao = () => {
             msgKelvin()
         }
         temperatura.value = ''
-        botao.blur()
     }
-
+    botao.blur()
 }
 
 botao.addEventListener('click', () => conversao())
