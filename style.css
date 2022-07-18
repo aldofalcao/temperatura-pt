@@ -54,7 +54,7 @@ input {
 button {
     padding: 13px;
     font-size: 22px;
-    color: rgb(0, 0, 0, 0.6);
+    border: 2px solid rgb(0, 0, 0, 0.1);
 }
 
 button:hover,
@@ -63,7 +63,6 @@ button:focus {
     font-weight: bold;
     color: rgb(255, 255, 255);
     background: rgb(0, 80, 170);
-    border: 2px solid rgb(255, 255, 255);
 }
 
 span {
